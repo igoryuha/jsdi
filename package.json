@@ -1,0 +1,36 @@
+{
+  "name": "jsdi",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igoryuha/jsdi.git"
+  },
+  "keywords": [],
+  "author": "igoryuha",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/igoryuha/jsdi/issues"
+  },
+  "homepage": "https://github.com/igoryuha/jsdi#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.13.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0",
+    "prettier": "3.8.1"
+  }
+}
