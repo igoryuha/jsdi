@@ -1,0 +1,29 @@
+{
+  "name": "jsdi",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igoryuha/jsdi.git"
+  },
+  "keywords": [],
+  "author": "igoryuha",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/igoryuha/jsdi/issues"
+  },
+  "homepage": "https://github.com/igoryuha/jsdi#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
